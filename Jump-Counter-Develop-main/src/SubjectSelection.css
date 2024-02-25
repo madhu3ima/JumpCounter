@@ -1,0 +1,56 @@
+/* SubjectSelection.css */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .video-container {
+    width: 100%; /* Adjust as needed */
+    height: 70vh;
+  }
+  video {
+    width: 100%;
+    height: 100%; /* Make the video take up 100% of its container */
+  }
+
+  .blocks-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Adjust as needed */
+    margin-top: 5px; /* Adjust as needed */
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .block {
+    width: 30%; /* Adjust as needed */
+    text-align: center;
+    border: 2px solid #ddd; /* Add borders for separation */
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .blocks-container {
+    margin: 5px;
+    padding: 10px; /* Add padding to the block container */
+  }
+  
+  .blocks-container p {
+    margin: 0; /* Remove margin on paragraphs inside the blocks container */
+    padding: 5px; /* Adjust padding on paragraphs inside the blocks container */
+    font-family: "Trebuchet MS" , sans-serif;
+    font-weight: bold;
+    
+  }
+  .blocks-container .frequency-block {
+    text-align: center;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin: 5px; */
+  }
+  /* Add more specific styles for each block if needed */
+  
